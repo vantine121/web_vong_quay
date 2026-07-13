@@ -3,16 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vòng Quay Vui Nhộn</title>
+    <title>Trang Ứng dụng</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding-top: 10vh; background-color: #f5f5f5; }
-        h1 { color: #ff5722; }
-        p { color: #555; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding-top: 5vh;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .app-card {
+            text-align: left;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            background-color: #ffffff;
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .app-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #007bff;
+            margin: 0 0 8px 0;
+        }
+        .app-desc {
+            margin: 0;
+            color: #555;
+            line-height: 1.5;
+        }
     </style>
 </head>
 <body>
-    <h1>Vòng Quay Vui Nhộn - Random Picker</h1>
-    <p>Ứng dụng giải trí tuyệt vời dành cho các buổi tiệc!</p>
-    <p>Đã chính thức có mặt trên Google Play Store.</p>
+    <div class="container">
+        <h1>Các Ứng Dụng & Công Cụ</h1>
+        <p class="subtitle">Nền tảng hỗ trợ giáo dục và tiện ích giải trí</p>
+
+        <div class="app-card">
+            <p class="app-title">Chấm thi Trắc nghiệm 2026 Pro</p>
+            <p class="app-desc">Công cụ hỗ trợ chấm thi tự động, xử lý bài thi nhanh chóng và chính xác thông qua camera điện thoại, tối ưu hóa thời gian cho công tác giảng dạy.</p>
+        </div>
+
+    
+        <div class="app-card">
+            <p class="app-title">Vòng Quay Vui Nhộn</p>
+            <p class="app-desc">Ứng dụng giải trí tạo các minigame ngẫu nhiên, phù hợp để khuấy động không khí trong các buổi học thuật hoặc sự kiện.</p>
+        </div>
+    </div>
 </body>
 </html>
