@@ -1,0 +1,8 @@
+{
+  "ios_min_version": "1.0.1",
+  "android_min_version": "1.0.0",
+  "force_update": true,
+  "ios_store_url": "https://apps.apple.com/app/id6789642658",
+  "android_store_url": "https://play.google.com/store/apps/details?id=com.vantine.chamthi2026",
+  "update_message": "Đã có phiên bản cập nhật hệ thống mới. Vui lòng cập nhật ứng dụng để đảm bảo trải nghiệm tốt nhất!"
+}
